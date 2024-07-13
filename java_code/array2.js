@@ -15,3 +15,6 @@ newarray3=newarray.flat(Infinity)
 console.log(newarray1)
 console.log(newarray2)
 console.log(newarray3)
+console.log(Array.isArray(newarray1))
+console.log(Array.from('sarthakdas'))
+console.log(Array.from({name:"TonyStark"}))// interesting it will through an empty array
